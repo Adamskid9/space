@@ -1,0 +1,60 @@
+.nav{
+background: rgba(255, 255, 255, 0.04);
+backdrop-filter: blur(40.774227142333984px);
+}
+
+.list::after{
+content: "";
+position: absolute;
+bottom: -10px;
+left: 0;
+height: 3px;
+width: 100%;
+background: #ffffff7a;
+display: none;
+}
+
+.list:hover::after{
+transition: all .3s;
+display: block;
+}
+
+.active::after{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background: white;
+}
+
+.btn::after{
+    content: "";
+    position: absolute;
+
+    background: white;
+    
+    border-radius: 50%;
+
+    transition: all 2s;
+    animation: anime;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.btn:hover::after{
+    height: 150px;
+    width: 150px;
+    z-index: -1;
+
+    transform: scale(1.4);
+    background: #f8eeee60;    
+}
+
+.blur{
+    backdrop-filter: blur(10px)
+}
+
+
