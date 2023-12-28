@@ -5,7 +5,7 @@ function Home() {
   const style = `text-grays font-Barlow`
 
     return (
-        <div className="absolute h-[650px] sm:h-[700px] w-full bg-[100%] bg-cover
+        <div className="absolute h-[650px h-screen sm:h-[700px] w-full bg-[100%] bg-cover
         bg-[url(/assets/home/background-home-mobile.jpg)] 
         md:bg-[url(/assets/home/background-home-desktop.jpg)] text-white">
 
