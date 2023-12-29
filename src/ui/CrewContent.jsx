@@ -69,7 +69,7 @@ function CrewContent() {
         <div className="flex flex-col  basis-3/6 items-center justify-center sm:justify-start sm:items-start">
            <h3 className="mb-3 text-lg sm:text-1xl uppercase font-[400] font-Bellefair opacity-[0.8dd] text-bgrays">{role}</h3>
            <h2 className="mb-3 text-xl sm:text-3xl uppercase">{name}</h2>
-           <p className="text-sm text-center sm:text-base  sm:text-left leading-[22px] opacity-[0.8] text-white">{bio}</p>
+           <p className=" text-center text-base sm:text-left leading-[22px] opacity-[0.8] text-white">{bio}</p>
 
            <div className="flex sm:order-1 -order-1 justify-center space-x-6 md:space-x-5 mt-10 sm:mt-auto mb-5 ">
                {data.map((_,i)=><span onClick={()=>cur(i)} className={`h-4 w-4 hover:bg-white transition-all duration-500 ${i===curData?"bg-white":"bg-bgrays"} cursor-pointer rounded-[100%]`}></span>)}

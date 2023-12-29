@@ -1,7 +1,7 @@
 function Titan() {
     return (
         <div className="flex flex-col ">
-        <h1 className="my-10 text-5xl sm:text-7xl uppercase font-Bellefair flex items-center justify-center md:justify-start">titan</h1>
+        <h1 className="my-10 text-4xl sm:text-7xl uppercase font-Bellefair flex items-center justify-center md:justify-start">titan</h1>
         <div className="text-grays flexs flex-colx">
             <span>The only moon known to have a dense atmosphere other than Earth,</span>
             <span>Titan is a home away from home (just a few hundred degrees colder!).</span>
@@ -14,12 +14,12 @@ function Titan() {
         <div className="flex items-center mt-4 space-x-10 justify-center sm:justify-between">
            <div className="flex flex-col">
               <span className="uppercase text-grays">Avg. distance</span>
-              <span className="mt-2 text-3xl font-Bellefair">1.6 bil. km</span>
+              <span className="mt-2 text-2xl md:text-3xl font-Bellefair">1.6 bil. km</span>
            </div>
         
            <div className="flex flex-col" >
             <span className="uppercase text-grays">Est. travel time</span>
-            <span className="mt-2 text-3xl font-Bellefair">7 years</span>
+            <span className="mt-2 text-2xl md:text-3xl font-Bellefair">7 years</span>
            </div>
         </div>
        

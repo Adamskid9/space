@@ -5,7 +5,7 @@ import Header from "../ui/Header"
 function Crew() {
 
     return (
-        <div className="h-[700px] absolute w-full bg-[100%] bg-cover 
+        <div className="h-[700px]  absolute w-full bg-[100%] bg-cover 
         sm:bg-[url(/assets/crew/background-crew-desktop.jpg)]
         bg-[url(/assets/crew/background-crew-mobile.jpg)] text-white">
           <Header/>
