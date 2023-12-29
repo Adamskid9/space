@@ -13,12 +13,12 @@ function Mars() {
         <div className="flex items-center mt-4 space-x-10 justify-center sm:justify-between">
            <div className="flex flex-col">
               <span className="uppercase text-grays">Avg. distance</span>
-              <span className="mt-2 text-2xl md:text-3xl font-Bellefair">225 mil. km</span>
+              <span className="mt-2 text-xl md:text-3xl font-Bellefair">225 mil. km</span>
            </div>
         
            <div className="flex flex-col" >
             <span className="uppercase text-grays">Est. travel time</span>
-            <span className="mt-2 text-2xl md:text-3xl font-Bellefair">9 months</span>
+            <span className="mt-2 text-xl md:text-3xl font-Bellefair">9 months</span>
            </div>
         </div>
        

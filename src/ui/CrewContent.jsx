@@ -64,7 +64,7 @@ function CrewContent() {
 
 
     return (
-        <div className="flex w-full md:mt-8 h-[90%] sm:space-x-10 md:space-x-16 sm:flex-row flex-col ">
+        <div className="flex w-full md:mt-8 h-[100%] sm:space-x-10 md:space-x-16 sm:flex-row flex-col ">
 
         <div className="flex flex-col  basis-3/6 items-center justify-center sm:justify-start sm:items-start">
            <h3 className="mb-3 text-lg sm:text-1xl uppercase font-[400] font-Bellefair opacity-[0.8dd] text-bgrays">{role}</h3>
@@ -77,7 +77,7 @@ function CrewContent() {
         </div>
         
         <div className="flex-1 mt-5 md:mt-0 flex sm:justify-start sm:items-start justify-center items-center sm:order-1 -order-1">
-            <img className="md:h-full sm:h-[80%] sm:w-[80%] h-[50%] w-[50%]" src={png.slice(2)} alt={name}/>
+            <img className="md:h-full sm:h-[80%] sm:w-[80%] h-[60%] w-[60%]" src={png.slice(2)} alt={name}/>
         </div>
 
        </div>

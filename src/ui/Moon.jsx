@@ -16,12 +16,12 @@ function Moon() {
             <div className="flex items-center text-base mt-4 space-x-10 justify-center sm:justify-between ">
                <div className="flex flex-col">
                   <span className="uppercase text-grays">Avg. distance</span>
-                  <span className="mt-2 text-2xl md:text-3xl font-Bellefair">384,400 km</span>
+                  <span className="mt-2 text-xl md:text-3xl font-Bellefair">384,400 km</span>
                </div>
             
                <div className="flex flex-col" >
                 <span className="uppercase text-grays">Est. travel time</span>
-                <span className="mt-2 text-2xl md:text-3xl font-Bellefair">3 days</span>
+                <span className="mt-2 text-xl md:text-3xl font-Bellefair">3 days</span>
                </div>
             </div>
            

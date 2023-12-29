@@ -23,7 +23,7 @@ function Header() {
             <div className="h-[2px] md:w-[20%] lg:w-[35%] ml-auto bg-white"></div>
 
             <div className="px-12 h-[70px] items-center flex justify-center py-5 nav">
-                <ul className="flex space-x-5 font-condensed text-base uppercase">
+                <ul className="flex space-x-5 font-condensed text-bgrays text-base uppercase">
                     <li className={`${list}`}><NavLink to={"/"}><span className="text-[#FFF] font-[900]">00</span> Home</NavLink></li>
                     <li className={`${list}`}><NavLink to={"/destination"}><span className="text-[#fff] font-[900]">01</span> Destination</NavLink></li> 
                     <li className={`${list}`}><NavLink to={"/crew"} ><span className="text-[#fff] font-[900]">02</span> Crew</NavLink></li> 

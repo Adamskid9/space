@@ -5,12 +5,12 @@ import Header from "../ui/Header"
 function Crew() {
 
     return (
-        <div className="h-[700px]  absolute w-full bg-[100%] bg-cover 
+        <div className="h-[800px]  absolute w-full bg-[100%] bg-cover 
         sm:bg-[url(/assets/crew/background-crew-desktop.jpg)]
         bg-[url(/assets/crew/background-crew-mobile.jpg)] text-white">
           <Header/>
 
-          <div className="absolute sm:h-[60%] md:h-[50%] sm:w-[80%] w-[60%] lg:w-[60%] flex flex-col 
+          <div className="absolute sm:h-[60%] md:h-[50%] sm:w-[80%] w-[70%] lg:w-[60%] flex flex-col 
            top-[38%] -translate-y-[30%]
            md:top-[50%] left-[50%] -translate-x-[50%] md:-translate-y-[50%]">
               

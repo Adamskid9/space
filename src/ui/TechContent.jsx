@@ -49,7 +49,7 @@ function TechContent() {
 
     return (
         <div className="absolute flex flex-col md:w-[90%] lg:w-[60%]  w-[70%] sm:w-[60%] top-[53%] left-[50%] -translate-y-[50%] -translate-x-[50%]">
-             <div className="-ml-5 uppercase text-[1rem] mb-3 md:mb-0 text-center md:text-start font-normal tracking-[2px]"><span className="text-bgrays">03</span> MEAT YOUR CREW</div>
+             <div className="-ml-5 uppercase text-[1rem] mb-3 md:mb-0 text-center md:text-start font-normal tracking-[2px]"><span className="text-bgrays">03</span> space technology</div>
 
              <div className="flex md:space-x-20 flex-col md:flex-row">
                 <div className="flex space-y-8 md:space-x-5 basis-2/4 self-center justify-center md:flex-row flex-col">
@@ -62,13 +62,13 @@ function TechContent() {
                      <div className="space-y-4 flex flex-col justify-center items-center md:justify-start md:items-start ">
                        <h2 className="uppercase opacity-[0.8] text-lg font-Bellefair">THE TERMINOLOGY...</h2>
                        <h1 className="uppercase font-Bellefair text-2xl sm:text-3xl">{name}</h1>
-                       <p className="opacity-[0.8] text-center md:text-start text-sm md:text-base">{description}</p>
+                       <p className="opacity-[0.8]  text-center md:text-start text-base sm:text-sm md:text-base ">{description}</p>
                      </div>              
                 </div>
 
 {/*image side element*/}
                 <div className="flex-1 -order-1 md:order-1 md:self-center flex justify-center items-center">
-                    <img className="h-[60%] w-[60%] md:h-full md:w-full " src={`${portrait.slice(2)}`} alt=""/>
+                    <img className="h-[60%] w-[70%] sm:w-[60%] md:h-full md:w-full " src={`${portrait.slice(2)}`} alt=""/>
                 </div>
              </div>
         </div>
